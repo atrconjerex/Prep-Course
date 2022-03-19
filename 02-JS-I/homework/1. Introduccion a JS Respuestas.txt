@@ -1,0 +1,29 @@
+VARIABLES:
+Las variables son como cajas, que contienen diferentes tipos de datos, por así decirlo,
+Las variables almacenan información.
+
+
+STRINGS:
+Strings son un tipo de dato, que significa: cadena de caracteres, o sea, es un conjunto de caracteres.
+Ej: una palabra entera, un nombre, una oración.
+
+
+FUNCIONES (Argumentos, Return)
+Las funciones son objetos invocables, que en su interior contienen instrucciones, se pueden invocar en todo el código, y tienen la característica (a diferencia de los procedimientos que solo se ejecutan), 
+de que devuelven un valor o dato, para que ese valor o dato pueda seguir siendo utilizado en lo que queda del código. 
+Su estructura es = Function    nombre de la funcion  (vacío o con variables)   {instrucción} ;
+
+
+DECLARACIONES: if
+If es una condición que se utiliza para comparación de una cosa con otra cosa.
+Su estructura es = If ( condición )  { instrucción } ;
+If también tiene a su compañero de comparación, el Else, 
+Si no se cumple lo primero, Else (sino), se hará esto otro...
+
+
+
+VALORES BOOLEANOS (true, false)
+Los valores booleanos, o variables Lógicas, son un tipo de variable también, que solo tiene 2 posibles contenidos: True or False. 
+Está basada en contenido Binario: 0 y 1, que es el lenguaje que entiende el Procesador de nuestra PC y su comunicación con otras partes del Hardware como la Memoria RAM. 
+
+

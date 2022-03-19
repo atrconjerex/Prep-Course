@@ -1,0 +1,37 @@
+FOR:
+For es un ciclo repetitivo, o un bucle de repetición en donde es posible poner parámetros para ejecutar 
+varias veces un código.
+Su estructura es:
+For (declaración de variable ;  condición ; sumatoria de esa variable) { instrucciones }
+                                                      Ejemplo:
+For (let p = 1   ; p <= 10  ; p++) {
+console.log(p);
+}
+
+AND &&:
+AND (se escribe && en JS) es un operador lógico que sirve para comparar expresiones.
+Para que sea verdadero, ambas expresiones deben ser verdaderas, si tan solo una de ellas no cumple, entonces será falso. Ejemplo:
+A  B   Resultado
+0   0        0
+0   1         0
+1    0        0 
+1    1        1
+
+OR ||:
+OR (se escribe || en JS) es un operador lógico que sirve para comparar expresiones.
+Para que sea verdadero, tan solo una de las 2 expresiones debe ser verdadera, no importa si la otra no cumple, solo con una sola basta para que sea verdadera, será falso si ambas expresiones no cumplen. Ejemplo:
+A  B  Resultado
+0  0    0
+0  1     1
+1  0     1
+1   1     1
+
+NOT  !:
+NOT (se escribe ! en JS) es un operador lógico de negación que sirve para alterar a lo contrario de una expresión.
+Si una expresión es verdadera, el NOT la transformará en falsa; y si es falsa se convertirá en verdadera.
+Totalmente lo contrario. Ejemplo:
+A || B    NOT   
+0     0      1         
+0     1       0
+1      0      0
+1      1       0
