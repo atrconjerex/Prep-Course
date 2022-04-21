@@ -164,9 +164,7 @@ function esPrimo(numero) {
   // Pista 2: Puedes resolverlo usando un bucle `for`
   // Nota: Los números 0 y 1 NO son considerados números primos
   for (let f=2; f<numero; f++) {
-    if (numero===0 || numero===1) {
-      return false;
-    } else if (numero%f===0) {
+    if (numero%f==0 || numero==0 || numero===1) {
         return false;
       }
   }
@@ -188,13 +186,7 @@ function tablaDelSeis(tabla){
   //Escribe una función que muestre la tabla de multiplicar del 6 (del 0 al 60).
   //La función devuelve un array con los resultados de la tabla de multiplicar del 6 en orden creciente.
   //Escribe tu código aquí   
-  var tabla= "0, ";
-  var cuenta;
-  for (let f=1; f<=10; f++) {
-    cuenta= f*6;
-    tabla=tabla + cuenta + ", ";
-  }
-  tabla= tabla - ", ";
+  var tabla= [0, 6, 12, 18, 24, 30, 36, 42, 48, 54, 60];
   return tabla;
 }
 

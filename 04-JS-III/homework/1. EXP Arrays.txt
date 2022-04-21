@@ -1,0 +1,8 @@
+ARRAYS:
+Los Arrays (Arreglos) son una colección o lista de elementos que de manera creciente están enumerados a partir del 0.
+Su estructura es:
+Nombre del Array  -   [valor, variable, función,array, lo que sea] ;
+Ejemplo:
+array [5, 6, 8, ´numbers´, true, [a , b, c], false, undefined, null];
+
+Se puede meter cualquier cosa dentro de un array, incluso un array dentro de otro, o dejarlo vacío undefined o null.
