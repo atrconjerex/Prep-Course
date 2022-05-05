@@ -1,0 +1,21 @@
+OBJETOS:
+Los objetos son como un tipo de dato que sirven para almacenar propiedades.
+
+PROPIEDADES:
+Las propiedades son colecciones de pares clave-valor
+Las clave sería el nombre único de ese objeto y el valor lo que contiene dentro
+
+MÉTODOS:
+Son funciones que están dentro de los objetos.
+
+BUCLE FOR IN:
+Los Bucles "for in loop" son un segundo tipo de bucle for de JS que sirve para iterar sobre cada par clave-valor del objeto. Es como una segunda alternativa para en vez de navegar como se hace con las matrices, hacerlo ahora con los objetos.
+
+NOTACIÓN DE PUNTOS VS NOTACIÓN DE CORCHETES:
+
+DOT NOTATION:
+Es más facil de usar, ya que se utilizan puntos en vez de corchetes.
+Sirven para asignar cosas sencillas a las propiedades de un objeto.
+
+BRACKET NOTATION:
+Sirve para navegar dentro de un objeto e interactuar con variables, además se pueden hacer más cosas con el Bracket Notation.  

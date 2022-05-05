@@ -1,0 +1,27 @@
+PROTOTYPE:
+El Prototype es una forma única de establecer un método una sola vez, para darle acceso a este método a todos los objetos de una clase.
+Ejemplo: (Object.create)
+
+var person = {
+   name: 'Default',
+   surname: 'Default'
+};
+var roberto = Object.create(person); 
+
+CONSTRUCTORS (CLASSES):
+Para constuir una clase, hay 2 keywords importantes: el new y el this
+El Keyword this se utilizará dentro de una función, y esta función generará las propiedades de un objeto.
+
+Luego de declarar la función, se debe crear una variable con un nombre, y el valor de esa variable será new + la declaración de la función anterior.
+
+Ejemplo:
+function Auto (){
+    this.marca = 'Mercedes Benz';
+    this.modelo = 'Sprinter';
+} 
+
+var camioneta1 = new Auto();
+
+
+Entonces lo que hará el keyword new será crear un nuevo objeto pero con la etiqueta de que pertenece a la clase Auto.
+
